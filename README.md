@@ -19,3 +19,6 @@ Bootstrap (already included) has tons of components that are incredibly easy to 
 ##Live Version of Website
 Github offer an awesome web hosting service. If you push code to the `gh-pages` branch it will automatically accessible on the web [here](http://jlleitschuh.github.io/WPI-CS3043-Imitation-Game).
 Just make sure that master is also up to date too.
+
+## Adding Dependencies
+You shouldn't need to add dependencies but if you do use bower if possible. This will keep the dependencies clean and easy to update.	
