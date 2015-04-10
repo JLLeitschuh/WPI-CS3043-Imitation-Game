@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top" ng-controller="HeaderController">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -11,15 +11,23 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="./#/home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li ng-class="{active: isActive('/home')}"><a href="./#/home">Home</a></li>
+				<li ng-class="{active: isActive('/page/computing_technologies')}">
+					<a href="./#/page/computing_technologies">Computing Technologies</a>
+				</li>
+				<li ng-class="{active: isActive('/page/intent_of_movie_makers')}">
+					<a href="./#/page/intent_of_movie_makers">Intent of Movie Makers</a>
+				</li>
+				<li ng-class="{active: isActive('/page/timeline')}">
+					<a href="./#/page/timeline">Timeline</a>
+				</li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Class Topics <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
+						<li><a href="./#/class_topic/information_privacy">Information Privacy</a></li>
+						<li><a href="./#/class_topic/intellectual_property">Intellectual Property</a></li>
+						<li><a href="./#/class_topic/network_communication">Network Communication</a></li>
+						<li><a href="./#/class_topic/privacy_and_government">Privacy &#38; Government</a></li>
 						<li class="divider"></li>
 						<li class="dropdown-header">Nav header</li>
 						<li><a href="#">Separated link</a></li>
