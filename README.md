@@ -1,6 +1,8 @@
 # WPI-CS3043-Imitation-Game
 ## Launching/Viewing Website
 How to launch the webpage: `python -m SimpleHTTPServer`
+If python reponds with a message saying it could not find the SimpleHTTPServer module, you're
+probably using python 3. Try it with python 2.7.
 
 Python should launch a web server. You can access it by typing: `localhost:8000` into your browser and it will load the page.
 
