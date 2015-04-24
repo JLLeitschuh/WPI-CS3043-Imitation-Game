@@ -13,6 +13,7 @@ angular.
 			when("/analysis", {templateUrl: "partials/analysis.html"}).
 			when("/class_topic/:topic", {templateUrl: "partials/google_doc.html", controller: "GDocsController"}).
 			when("/page/:topic", {templateUrl: "partials/google_doc.html", controller: "GDocsController"}).
+			when("/documentation/:topic", {templateUrl: "partials/google_doc.html", controller: "GDocsController"}).
 			//when("/example_page", {templateUrl: "partials/home.html"/*, controller: ""*/}). //Uncomment this line to add additional page navigation
 			otherwise({redirectTo: '/home'});
 		}

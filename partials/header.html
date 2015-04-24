@@ -17,6 +17,9 @@
 				<li ng-class="{active: isActive('/page/computing_technologies')}">
 					<a ng-click="navCollapsed = true" href="./#/page/computing_technologies">Computing Technologies</a>
 				</li>
+				<li ng-class="{active: isActive('/page/film_vs_reality')}">
+					<a ng-click="navCollapsed = true" href="./#/page/film_vs_reality">Film vs. Reality</a>
+				</li>
 				<li ng-class="{active: isActive('/page/intent_of_movie_makers')}">
 					<a ng-click="navCollapsed = true" href="./#/page/intent_of_movie_makers">Intent of Movie Makers</a>
 				</li>
@@ -27,7 +30,7 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Class Topics <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
 						<li>
-							<a ng-click="navCollapsed = true"  href="./#/class_topic/information_privacy">Information Privacy</a>
+							<a ng-click="navCollapsed = true"  href="./#/class_topic/government_and_information_privacy">Government &#38; Information Privacy</a>
 						</li>
 						<li>
 							<a ng-click="navCollapsed = true" href="./#/class_topic/intellectual_property">Intellectual Property</a>
@@ -35,19 +38,34 @@
 						<li>
 							<a ng-click="navCollapsed = true" href="./#/class_topic/network_communication">Network Communication</a>
 						</li>
-						<li>
+						<!--li>
 							<a ng-click="navCollapsed = true" href="./#/class_topic/privacy_and_government">Privacy &#38; Government</a>
-						</li>
+						</li-->
 						<li class="divider"></li>
 						<li class="dropdown-header">Nav header</li>
 						<li><a href="#">Separated link</a></li>
 						<li><a href="#">One more separated link</a></li>
 					</ul>
 				</li>
+				<!-- THIS IS FOR THE DOCUMENATION DROPDOWN -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li>
+							<a ng-click="navCollapsed = true"  href="./#/class_topic/information_privacy"></a>
+						</li>
+						<li>
+							<a ng-click="navCollapsed = true" href="./#/documentation/minutes">Meeting Minutes</a>
+						</li>
+						<li>
+							<a ng-click="navCollapsed = true" href="./#/documentation/presentation">Presentation</a>
+						</li>
+					</ul>
+				</li>
 			</ul>
-			<ul class="nav navbar-nav navbar-right">
+			<!--ul class="nav navbar-nav navbar-right">
 				<li class=""><a href="https://github.com/JLLeitschuh/WPI-CS3043-Imitation-Game">Github Project</a></li>
-			</ul>
+			</ul-->
 		</div><!--/.nav-collapse -->
 	</div>
 </nav>
