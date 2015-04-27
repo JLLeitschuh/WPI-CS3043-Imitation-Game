@@ -11,6 +11,9 @@ angular.module('ImitationGameApp.controllers', []).
 			'government_and_information_privacy': $sce.trustAsResourceUrl("https://docs.google.com/document/d/1iW9rcd5qFnGF2vE1fdx0XnFrR_Q3w0Hpfy9Xb1vyoIk/pub?embedded=true"),
 			'intellectual_property': $sce.trustAsResourceUrl("https://docs.google.com/document/d/14nHtLFvYqABwLhkag1DAkXbCmOwDP-3HJBdB0dBDCDQ/pub?embedded=true"),
 			'network_communication': $sce.trustAsResourceUrl("https://docs.google.com/document/d/19kDSwRDWUvSpT7HIy3joxspiJtswttE2iSscHi5BGuk/pub?embedded=true"),
+			'computer_network_security': $sce.trustAsResourceUrl("https://docs.google.com/document/d/1nHf-mmUqTDci35kha53xBEsqFAPi46Z-VNufuKFQ9Gw/pub?embedded=true"),
+			'computer_reliability': $sce.trustAsResourceUrl("https://docs.google.com/document/d/10RpB1YfY6z6GEp66E0jJiD41joNoJ6miZtGwkPckUzw/pub?embedded=true"),
+			'work_wealth': $sce.trustAsResourceUrl("https://docs.google.com/document/d/1QioOHCKlcsymGTGxXly5FsAWNMoCQrAX3f31tdryi-8/pub?embedded=true"),
 			//'privacy_and_government': $sce.trustAsResourceUrl("https://docs.google.com/document/d/1kLeKygRvPETuMUCYiITHJI3Att2NAIINkDyNTOIOhYI/pub?embedded=true"),
 			//Defined for Documentation
 			//id=0BxJ3N8DQlUWRfnYzNFM3QV9hVDl6NFdNR2NJZll3M2FuSFBRNzRsTXRSWnA4cDZSVExSQUk
